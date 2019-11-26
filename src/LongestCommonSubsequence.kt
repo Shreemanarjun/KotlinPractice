@@ -8,5 +8,5 @@ fun lcs(x: String, y: String): String {
     return if (x2.length > y2.length) x2 else y2
 }
 fun main(){
-    println(lcs(y="010110110",x=                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    "10010101"))
+    println(lcs("1011011",y = "111010"))
 }
